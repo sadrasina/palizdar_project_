@@ -1,0 +1,90 @@
+.picture{
+  width: 1500px;
+  height: 745px;
+}
+form {border: 1px solid rgb(34, 8, 94);}
+
+input[type=text]{
+  width: 40%;
+  padding: 8px 18px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 1px solid rgb(34, 8, 94);
+  box-sizing: border-box;
+  
+}
+
+input[type=password] {
+    width: 40%;
+    padding: 8px 18px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid rgb(34, 8, 94);
+    box-sizing: border-box;
+    
+  }
+  
+
+button {
+  background-color: #95d9e6;
+  width: 40%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  width: 50%;
+  
+}
+
+button:hover {
+  opacity: 0.3;
+}
+
+.box2 {
+  width: 100%;
+  padding: 5px 18px;
+  background-color:#95d9e6;
+  ;
+}
+
+.img {
+  text-align: center;
+  
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.box {
+  padding: 20px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 2px;
+}
+.all {
+  
+  margin: auto;
+  width: auto;
+  
+  font-size: 20px;
+  background-color: rgb(34, 8, 94);
+}
+.div-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center-div {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
